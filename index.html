@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>
-            Hello World!
-        </h1>
-        <p>
-            I'm hosted with GitHub Pages.
-        </p>
-    </body>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> yo </title>
+    <style>
+      body {
+        <!--background-image: url("cat.png")-->;
+        background-image: url("mario.gif");
+        cursor: url("mario.gif"), auto;
+        <!--https://www.w3schools.com/html/html5_audio.asp-->
+      }
+      
+      button { 
+        //border: none;
+        //cursor: url("mario.gif"), auto;
+        top:45%;
+        left:45%;
+        position: absolute;
+        }
+    </style>
+    
+    <script 
+      src="/autoplay.js">
+    </script>
+    
+  </head>
+  
+  <body>
+    <img src="/mario.gif" 
+      width="1300" 
+      height="600"    
+    />
+    
+    <button class="button" onClick=this.remove()>
+      <img src="/mario.gif">
+    </button>
+    
+    <audio autoplay loop>
+      <source src="https://files.catbox.moe/1eylzh.mp3" type="audio/mpeg">
+    </audio>
+    <img src="/neocities.png">
+
+ </body>
 </html>
