@@ -1,7 +1,7 @@
 :root {
     --primaryText: #fff;
     --secondaryText: #ff015e;
-    --primary: rgba(233, 172, 204, 0.6);
+    --primary: rgba(172, 194, 233, 0.6);
     --secondary: rgba(240, 111, 159, 0.6); 
     --buttonHover: rgba(223, 117, 241, 0.867);
     --smallButtonHover: rgba(255, 255, 255, 0.25);
@@ -26,7 +26,7 @@ body {
     min-height: 100%;
     /* The image used for the site background. Try changing skyscape.jpg to stars.jpg. Put a replacement photo in the images folder and, in line 21 below, replace skyscape.jpg with yourbackgroundfilename.jpg */
     /* The linear gradient darkens the image, like putting a sunglasses lens on top of it. If you want to darken the image even more, change 0.1 (both times) to 0.3 or higher */
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/mojave.jpg);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
